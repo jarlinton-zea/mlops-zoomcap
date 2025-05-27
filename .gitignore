@@ -1,2 +1,20 @@
 .DS_Store
 .venv/
+Pipfile
+*.lock
+
+
+# MLflow tracking and artifacts
+mlruns/
+output/
+data/
+artifacts/
+
+# DVC cache and metadata
+.dvc/
+*.dvc
+.dvcignore
+
+# General
+__pycache__/
+*.log
